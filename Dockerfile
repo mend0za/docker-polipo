@@ -1,5 +1,5 @@
-FROM debian:testing
-MAINTAINER Christian Lück <christian@lueck.tv>
+FROM debian:stable
+MAINTAINER Vladimir Shakhov <mend0za@serverok.pl>
 
 RUN apt-get update && apt-get install -y polipo
 
